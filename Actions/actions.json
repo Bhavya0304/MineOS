@@ -1,0 +1,11 @@
+{
+    "Notes":{
+        "desc":"this action is used to create notes and save important events to text file and somewhere from where it can we retirved as well"
+    },
+    "Copy":{
+        "desc":"this action is used to copy any file from a place to another with source and destination paths"
+    },
+    "Path":{
+        "desc":"this action is used to create path of file or folder from user description"
+    }
+}
