@@ -1,3 +1,11 @@
-from Agent.app import BrainIt
+import importlib.util
+from Handler.handler import Handler 
 
-print(BrainIt("who is darshan"))
+
+
+if __name__ == "__main__":
+    handlerbot = Handler()
+    while True:
+        user = input("MineOS> ")
+        response = handlerbot.Handle(user)
+        print(response)

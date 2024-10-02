@@ -1,11 +1,13 @@
 {
-    "Notes":{
-        "desc":"this action is used to create notes and save important events to text file and somewhere from where it can we retirved as well"
+    "notes":{
+        "desc":"this action is used to create notes and save important events to text file and somewhere from where it can we retirved as well",
+        "path":"Actions/Notes/Notes.py"
     },
-    "Copy":{
-        "desc":"this action is used to copy any file from a place to another with source and destination paths"
+    "copy":{
+        "desc":"this action is used to copy any file from a place to another with source and destination paths",
+        "path":"Actions/Notes/Notes.py"
     },
-    "Path":{
-        "desc":"this action is used to create path of file or folder from user description"
+    "question":{
+        "desc":"this action is used as default action if none of the above actions are suitable. this action is used to directly answer the question when their is no task to perform"
     }
 }
